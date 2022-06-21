@@ -4,7 +4,7 @@ n, c100, c50, res50, c20,res20, c10, res10, c5, res5, c2,res2, c1 : longint;
 
 begin
   ReadLn(n);
-
+	
 	c100 := n div 100;  
 	res50 := n mod 100;
 	c50 := res50 div 50;
