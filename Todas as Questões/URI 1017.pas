@@ -4,8 +4,10 @@ vm, t :integer;
 ql : real;
 
 begin
-  readln(t);
-  readln(vm);
+  ReadLn(t);
+  ReadLn(vm);
+
   ql:= ((vm*t) / 12.0);
-  writeln(ql:0:3);
+
+  WriteLn(ql:0:3);
 end.

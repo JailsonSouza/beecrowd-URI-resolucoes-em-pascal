@@ -6,11 +6,11 @@ horastrab : integer;
 pagahoras : real;
 
 begin
-  readln(numfun);
-  readln(horastrab);
-  readln(pagahoras);
+  ReadLn(numfun);
+  ReadLn(horastrab);
+  ReadLn(pagahoras);
  
-  writeln('NUMBER = ', numfun);
-  writeln('SALARY = ', 'U$ ',(horastrab * pagahoras):0:2);
+  WriteLn('NUMBER = ', numfun);
+  WriteLn('SALARY = ', 'U$ ',(horastrab * pagahoras):0:2);
   
 end.

@@ -1,11 +1,11 @@
 program uri1003;
 var 
-A,B,SOMA : Integer;
+a, b, soma : Integer;
 
 begin
- ReadLn(A);
- ReadLn(B);
+  ReadLn(a);
+  ReadLn(b);
  
- SOMA := (A + B);
- WriteLn('SOMA = ',soma);
+  soma := (a + b);
+  WriteLn('SOMA = ', soma);
 end.

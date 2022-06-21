@@ -5,8 +5,9 @@ valorpeca1, valorpeca2 : real;
 valortot: real;
 
 begin
- readln(codpeca1, numpeca1,valorpeca1); 
- readln(codpeca2, numpeca2,valorpeca2);
- valortot := ((numpeca1 * valorpeca1) + (numpeca2 * valorpeca2));
- writeln('VALOR A PAGAR: R$ ',valortot:0:2);
+  ReadLn(codpeca1, numpeca1,valorpeca1); 
+  ReadLn(codpeca2, numpeca2,valorpeca2);
+
+  valortot := ((numpeca1 * valorpeca1) + (numpeca2 * valorpeca2));
+  WriteLn('VALOR A PAGAR: R$ ',valortot:0:2);
 end.

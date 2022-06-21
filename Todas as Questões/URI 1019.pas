@@ -4,10 +4,12 @@ var
 n,s,m,h,resh : longint;
 
 begin
-readln(n);
- h := n div 3600;
- resh:= n mod 3600;
- m := resh div 60;
- s:= resh mod 60; 
- writeln(h,':',m,':',s);
+  ReadLn(n);
+
+  h := n div 3600;
+  resh:= n mod 3600;
+  m := resh div 60;
+  s:= resh mod 60;
+
+  WriteLn(h,':',m,':',s);
 end.

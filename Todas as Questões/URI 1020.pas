@@ -3,14 +3,15 @@ var
 	n, a, m,d, ra, rm: integer;
 
 begin
-  readln(n);
+  ReadLn(n);
+
   a := n div 365;
   ra := n mod 365;
   m := ra div 30;
   rm := ra mod 30;
   d := rm mod 30;
   
-  Writeln(a,' ano(s)');
-  Writeln(m,' mes(es)');
-  Writeln(d,' dia(s)');
+  WriteLn(a,' ano(s)');
+  WriteLn(m,' mes(es)');
+  WriteLn(d,' dia(s)');
 end.

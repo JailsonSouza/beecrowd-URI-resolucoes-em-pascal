@@ -1,4 +1,4 @@
 program uri1000;
 begin
-  writeln('Hello World!');
+  WriteLn('Hello World!');
 end.

@@ -6,10 +6,10 @@ totalvendas : real;
 total : real;
 
 begin
-  readln(nomefun);
-  readln(salariofixo);
-  readln(totalvendas);
+  ReadLn(nomefun);
+  ReadLn(salariofixo);
+  ReadLn(totalvendas);
+
   total := (salariofixo + (totalvendas * 0.15));
-  writeln('TOTAL = ', 'R$ ', total:2:2);
-  
+  WriteLn('TOTAL = ', 'R$ ', total:2:2);
 end.

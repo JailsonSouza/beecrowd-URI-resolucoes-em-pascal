@@ -1,12 +1,12 @@
 program uri1001;
 uses crt;
 var 
-A, B, X: Integer;
+a, b, x: Integer;
 
 begin
-  ReadLn(A);
-  ReadLn(B);
-  X := (A + B);
-  WriteLn('X = ', X);
+  ReadLn(a);
+  ReadLn(b);
+  x := (a + b);
+  WriteLn('X = ', x);
   
 end.

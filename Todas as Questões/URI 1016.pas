@@ -4,7 +4,9 @@ var
 d, a: integer;
 
 begin
-  readln(d);
+  ReadLn(d);
+
   a := (d * 2);
-  writeln(a,' minutos');
+
+  WriteLn(a,' minutos');
 end.
