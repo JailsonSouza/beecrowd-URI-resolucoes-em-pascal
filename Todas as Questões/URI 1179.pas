@@ -1,8 +1,8 @@
 program uri1179;
 var
 x, i, j, qp, qi : integer;
-par : array[1..5] of integer;
-impar : array[1..5] of integer;
+par : array[1..5] of longint;
+impar : array[1..5] of longint;
 
 begin
   qp := 0;
@@ -12,7 +12,7 @@ begin
     begin
         ReadLn(x);
 
-        if x % 2 = 0 then
+        if x mod 2 = 0 then
             begin
                 par[qp] := x;
                 qp += 1;
@@ -22,7 +22,7 @@ begin
                             WriteLn('par[',j,'] = ',par[j]);
                         qp := 0;
                     end;
-            end;
+            end
         else
             begin
                 impar[qi] := x;
@@ -36,8 +36,8 @@ begin
             end;
     end;
 
-  for i:=0 to qi do
+  for j:=0 to qi-1 do
     WriteLn('impar[',j,'] = ',impar[j]);
-  for i:=0 to qp do
+  for j:=0 to qp-1 do
     WriteLn('par[',j,'] = ',par[j]);
 end.
