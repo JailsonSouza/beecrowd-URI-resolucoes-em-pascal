@@ -1,16 +1,22 @@
 program uri1865;
 var
-n, cont, forca : integer;
-nome : array[1..20] of char;
+n, cont: integer;
+dados, nome, forca : string;
+d : array[0..1] of string;
 
 begin
   cont := 1;
   ReadLn(n);
   While cont < n do
     begin
-      Read(nome);
-      ReadLn(forca);
-      
+      ReadLn(dados);
+      d := dados.Split(' ');
+      nome := d[0];
+      forca := d[1];
+
+      WriteLn('Nome = ', nome, ' cont: ', cont);
+      WriteLn('Forca = ', forca, ' cont: ', cont);
+
       if nome = 'Thor' then
         begin
           Writeln('Y');
@@ -19,6 +25,6 @@ begin
         begin
           WriteLn('N');
         end;
+      cont +=1;
     end;
-    cont +=1;
 end.

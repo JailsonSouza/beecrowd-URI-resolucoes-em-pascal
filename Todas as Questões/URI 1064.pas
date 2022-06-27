@@ -1,6 +1,6 @@
 program uri1064;
 var
-vet : array[1..5]of real;
+vet : array[1..5] of real;
 aux,qtd : integer;
 med, val : real;
 
